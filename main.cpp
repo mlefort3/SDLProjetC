@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <SDL2/SDL.h>
 #include <iostream>
+#include "2j.h"
 
-//g++ -o main main.cpp -lSDL2
+//g++ -o main main.cpp -lSDL2 pour linux
 
 int main(int argc, char *argv[]) {
 	SDL_Window *window = nullptr;
@@ -58,7 +59,7 @@ int main(int argc, char *argv[]) {
 								if (image == 1) {
 									currentImage = imageSurface2;
 									image = 2;
-									printf("ok");
+									printf("ok2");
 									break;
 								}
 								else if (image == 2) {
@@ -90,6 +91,10 @@ int main(int argc, char *argv[]) {
 									printf("%d", image);
 									isRunning = false;
 								}
+                                else if (image == 1) {
+                                    int i;
+                                    i = game2players();
+                                }
 								break;
 
 							default:
