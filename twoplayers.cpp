@@ -65,7 +65,7 @@ int twoPlayers() {
 	return 0;
 }
 
-/*int main() {
-    int i;
-    i = twoPlayers();
-}*/
+int main() {
+    //int i;
+    //i = twoPlayers();
+}
