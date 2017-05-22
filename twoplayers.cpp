@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <SDL2/SDL.h>
 #include <iostream>
+#include "twoplayers.h"
 
 //g++ -o main main.cpp -lSDL2 pour linux
 
@@ -64,7 +65,7 @@ int twoPlayers() {
 	return 0;
 }
 
-int main() {
+/*int main() {
     int i;
     i = twoPlayers();
-}
+}*/

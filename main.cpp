@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <SDL2/SDL.h>
 #include <iostream>
-#include "2j.h"
+#include "twoplayers.h"
 
 //g++ -o main main.cpp -lSDL2 pour linux
 
@@ -93,7 +93,7 @@ int main(int argc, char *argv[]) {
 								}
                                 else if (image == 1) {
                                     int i;
-                                    i = game2players();
+                                    i = twoPlayers();
                                 }
 								break;
 
